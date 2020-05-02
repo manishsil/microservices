@@ -19,5 +19,14 @@ public class CurrencyExchangeServiceApplication {
 	public Sampler defaultSampler(){
 		return Sampler.ALWAYS_SAMPLE;
 	}
+	
+/*	@Bean
+	public SecurityWebFilterChain securityWebFilterChain(
+	  ServerHttpSecurity http) {
+	    return http.authorizeExchange()
+	      .pathMatchers("/actuator/**").permitAll()
+	      .anyExchange().authenticated()
+	      .and().build();
+	}*/
 
 }

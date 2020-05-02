@@ -35,6 +35,17 @@ http://localhost:8888/limits-service/dev
 
 http://localhost:8761/
 
+#Admin Server
+
+http://localhost:7700/
+
+#Hystrix Dashboard
+
+http://localhost:8080/actuator/hystrix.stream
+
+http://localhost:8080/actuator/hystrix
+
+
 #Zuul Api Url
 
 http://localhost:8765/{applicationName}/{uri}
